@@ -11,3 +11,6 @@
 /ssb.csv
 /video_games_meta.parquet
 /videogames.csv
+.product-reviews.db.lock
+embeddings-backup.npz
+product-reviews-backup.db
