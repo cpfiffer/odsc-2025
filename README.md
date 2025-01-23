@@ -19,17 +19,18 @@ cd odsc-2025
 
 2. **Install requirements**
 
-You will need to install the following packages:
+You must install the package from the `requirements.txt` file in the repository:
+
+```bash
+pip install -r requirements.txt
+```
+
+You can also install the packages directly with pip, though the `requirements.txt` install method is recommended.
 
 ```bash
 pip install "pymilvus[model]" "outlines[transformers]" datasets sentence-transformers scikit-learn matplotlib pandas einops jupyterlab sentencepiece
 ```
 
-You may also install the package from the `requirements.txt` file in the repository:
-
-```bash
-pip install -r requirements.txt
-```
 
 3. **Download the models**
 
