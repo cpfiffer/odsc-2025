@@ -22,7 +22,7 @@ cd odsc-2025
 You will need to install the following packages:
 
 ```bash
-pip install "pymilvus[model]" "outlines[transformers]" datasets sentence-transformers scikit-learn matplotlib pandas einops sentencepiece
+pip install "pymilvus[model]" "outlines[transformers]" datasets sentence-transformers scikit-learn matplotlib pandas einops jupyterlab sentencepiece
 ```
 
 You may also install the package from the `requirements.txt` file in the repository:
@@ -39,3 +39,15 @@ Please run the script `prep.py` to download
 
 - The embedding model `mixedbread-ai/mxbai-embed-xsmall-v1`
 - The language model `Qwen/Qwen2.5-1.5B-Instruct`
+
+4. **Start Jupyter**
+
+As this is a notebook, you will need some form of Jupyter notebook viewer. The `requirements.txt` file will install Jupyter Lab by default.
+
+To run Jupyter Lab, run
+
+```bash
+jupyter lab
+```
+
+and open the `lesson.ipynb` notebook.
